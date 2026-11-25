@@ -1,83 +1,140 @@
 # Ask-the-Policy
 
-Multilingual (English + Hindi) question answering over Indian government policy documents, with a
-**measured evaluation** of every design choice: chunking, dense vs. BM25 vs. hybrid retrieval,
-cross-encoder reranking, and a strict "refuse if unsure" prompt.
+Question answering over Indian government scheme documents (PM-KISAN, Jal Jeevan Mission, PM Ujjwala,
+MGNREGA). Answers cite their source passages and say so when the documents don't contain the answer.
 
-> Status: pipeline complete; results below are filled in after running the evaluation (see "Reproduce").
+The point of the project is the **measurement**: every design choice (chunking, dense vs. BM25 vs. hybrid
+retrieval, cross-encoder reranking, a strict "refuse if unsure" prompt) is compared on a hand-reviewed
+evaluation set instead of being assumed to help.
+
+> **Status:** pipeline and Streamlit UI working. Retrieval ablation complete (below). Answer-quality
+> evaluation (faithfulness, correctness, refusal rate) is in progress and will be added here.
 
 ## Architecture
 
 ```
-PDFs ─► parse + clean ─► chunk (fixed | semantic) ─► embeddings (multilingual-e5) ─► FAISS
+PDFs ─► parse + clean ─► chunk (fixed | semantic) ─► embeddings (multilingual-e5-small) ─► FAISS
                                                   └► BM25
 query ─► dense + BM25 ─► RRF fusion ─► cross-encoder rerank ─► top-k ─► LLM (cited, may refuse) ─► answer
 ```
 
 | Layer | Implementation |
 |---|---|
-| Parsing | PyMuPDF; header/footer + page-number stripping; scanned-page detection |
-| Chunking | Fixed-size with overlap vs. semantic (split on sentence-similarity drops, Hindi danda aware) |
-| Retrieval | `multilingual-e5-small` + FAISS, BM25 (Devanagari-safe tokenizer), Reciprocal Rank Fusion |
-| Reranking | Multilingual cross-encoder (`mmarco-mMiniLMv2`), configurable |
-| Generation | Any OpenAI-compatible LLM; numbered citations; `NOT_FOUND` abstention |
-| Evaluation | Hit@k, MRR (page-level gold), LLM-judged faithfulness and correctness, refusal rates |
-| Serving | FastAPI (`/ask`), Streamlit UI, Docker + docker-compose, CI running unit tests |
+| Parsing | PyMuPDF; running header/footer and page-number stripping; scanned-page detection |
+| Chunking | Fixed-size with overlap vs. semantic (split where adjacent-sentence similarity drops) |
+| Retrieval | `multilingual-e5-small` + FAISS, BM25, Reciprocal Rank Fusion |
+| Reranking | Cross-encoder (`mmarco-mMiniLMv2`), re-scoring the top 30 hybrid candidates |
+| Generation | Any OpenAI-compatible LLM; numbered citations; `NOT_FOUND` abstention in strict mode |
+| Evaluation | Hit@k and MRR at page level; LLM-judged faithfulness and correctness; refusal rates |
+| Serving | Streamlit UI (tested). FastAPI service and Docker files are included but not yet tested end to end. |
 
-## Results
+## Retrieval results
 
-Eval set: **N** questions (**A** answerable, **U** unanswerable, **H** Hindi) over **D** documents / **P** pages.
+Evaluation set: **88 questions** (74 answerable, 14 unanswerable) over **6 documents / 373 pages**.
+Retrieval is scored on the 74 answerable questions: a hit means one of the top-k chunks comes from the
+gold document and covers a gold page.
 
-| Config | Hit@1 | Hit@5 | MRR@10 | Faithfulness | Correctness | Correct refusals |
-|---|---|---|---|---|---|---|
-| Dense only | – | – | – | – | – | – |
-| BM25 only | – | – | – | – | – | – |
-| Hybrid (RRF) | – | – | – | – | – | – |
-| Hybrid + rerank | – | – | – | – | – | – |
-| Hybrid + rerank + strict prompt | – | – | – | – | – | – |
-| Semantic chunks + hybrid + rerank + strict | – | – | – | – | – | – |
+| Config | Hit@1 | Hit@3 | Hit@5 | MRR@10 |
+|---|---|---|---|---|
+| Dense only (fixed chunks) | 60.8% | 78.4% | 85.1% | 70.8% |
+| BM25 only | 58.1% | 81.1% | 86.5% | 70.1% |
+| Hybrid (RRF) | 71.6% | 83.8% | 89.2% | 78.8% |
+| **Hybrid + cross-encoder rerank** | **83.8%** | **94.6%** | **98.6%** | **89.5%** |
+| Semantic chunks + hybrid + rerank | 79.7% | 90.5% | 95.9% | 86.0% |
 
-Paste the table from `results/results_full.md` here.
+What the numbers support:
+- **Reranking gives the largest gain**: Hit@1 rises from 71.6% (hybrid) to 83.8%, and Hit@5 from 89.2% to 98.6%.
+- **Hybrid beats either retriever alone at the top ranks** (Hit@1 71.6% vs. 60.8% dense and 58.1% BM25).
+  Dense and BM25 perform about equally on their own.
+- **Semantic chunking showed no advantage** over fixed-size chunks here (95.9% vs. 98.6% Hit@5, a
+  difference of two questions, which is within noise on a set this size).
+
+### Answer quality
+
+_In progress: faithfulness, correctness and correct-refusal rate for dense-only, hybrid + rerank, and
+hybrid + rerank + strict prompt. To be added after the full evaluation run._
 
 ### Failure analysis
-_Write 4–6 bullets after reading `results/failures_full.jsonl`. For example: which question types fail,
-whether Hindi lags English, table-heavy pages, OCR/legacy-font issues, over-refusal. Be specific._
+
+_To be written from `results/failures_*.jsonl` after the full run._
+
+## The evaluation set
+
+- 90 draft questions were generated by an LLM from randomly sampled document passages, then **reviewed
+  by hand**: weak, vague or wrong drafts were dropped, leaving **74 answerable questions**. Each keeps the
+  PDF page(s) of its source passage as the gold label.
+- **14 unanswerable questions** were written by hand about schemes and details not in the documents
+  (e.g. other government schemes). Each topic was checked against the corpus with a keyword search
+  (`python eval_tools.py mentions <word>`) so the documents don't answer it.
+- The file is `eval/questions.jsonl`. `eval_tools.py` is the review workflow (spreadsheet in, JSONL out).
+
+## Documents
+
+Downloaded from official sources on 23 Nov 2026. Versions may have been updated since.
+
+| File | Source |
+|---|---|
+| PM-KISAN Operational Guidelines | https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf |
+| PM-KISAN FAQ | https://PMkisan.gov.in/Documents/RevisedFAQ.pdf |
+| Jal Jeevan Mission Operational Guidelines | https://jaljeevanmission.gov.in/sites/default/files/guideline/JJM_Operational_Guidelines.pdf |
+| Jal Jeevan Mission, Nal Jal Mitra Guidelines | https://jaljeevanmission.gov.in/sites/default/files/guideline/Nal-Jal-Mitra-Guidelines.pdf |
+| PM Ujjwala Yojana SoP | https://mopng.gov.in/files/marketing/lpg/75L-PMUY-SoP-10102023-(1).pdf |
+| MGNREGA Operational Guidelines 2008 (Ministry of Rural Development; NCST-hosted copy) | https://ncst.nic.in/uploads-dev/important_reports/The%20Narega%202005,%20Operational%20Guidelines%202008,%20Min.%20of%20Rural%20Dev.pdf |
+
+## Known data issues
+
+- **Scanned pages skipped:** 13 pages across four PDFs had no extractable text (image-only pages) and are
+  not indexed. OCR is not included.
+- **Hindi was dropped.** The embedding and reranking models are multilingual, but every Hindi government
+  PDF I tried (several sources) extracted with corrupted text: legacy font mappings that substitute wrong
+  letters inside otherwise valid Devanagari (for example "व्यक्ति" extracted as "व्यजक्त"), which passes a
+  simple junk-symbol check. Those files were excluded, so **the evaluation is English-only**. Hindi
+  retrieval has not been measured.
+- **Ligature glitches:** in some PDFs (notably the JJM guidelines), ligatures such as "ti" extract as
+  unusual symbols. This hurts keyword matching for affected words and is not yet fixed.
+
+## Limitations
+
+- **Small evaluation set.** With 74 answerable questions, one question is about 1.4 percentage points.
+  Small differences between configs are not statistically meaningful.
+- **Possible bias toward fixed chunking and keyword overlap.** Questions were drafted from fixed-size
+  chunks and often reuse wording from their source passage.
+- **Single-page gold labels.** The same fact can appear in more than one document (e.g. the PM-KISAN FAQ
+  and guidelines), so a correct retrieval from another source can be scored as a miss.
+- **LLM-as-judge** scores (once added) are noisy, and the same model family generates and grades answers.
+  Spot-check a sample by hand.
+- Tables in PDFs are flattened to text, which hurts questions about tabular data.
 
 ## Quickstart
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv
+.venv\Scripts\activate            # Windows   (Mac/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
-cp .env.example .env            # add your LLM_API_KEY
+copy .env.example .env            # Windows   (Mac/Linux: cp .env.example .env), then add your LLM_API_KEY
 
 # 1. add PDFs to data/raw/ (see data/raw/README.md)
-python -m src.ingest            # parse + chunk (fixed and semantic)
-python -m src.index             # build FAISS indexes
+python -m src.ingest              # parse + chunk (fixed and semantic)
+python -m src.index               # build FAISS indexes
 
 # 2. try it
-uvicorn src.api:app --reload    # API  -> http://localhost:8000/docs
-streamlit run app.py            # UI   -> http://localhost:8501
+streamlit run app.py              # UI -> http://localhost:8501
 ```
 
 ## Reproduce the evaluation
 
 ```bash
-# build eval/questions.jsonl (see eval/README.md), then:
-python -m src.evaluate --retrieval-only   # fast retrieval metrics, no LLM calls
-python -m src.evaluate                    # full ablation incl. faithfulness/correctness
+python -m src.gen_eval_candidates --n 90     # draft questions from your documents
+pip install openpyxl
+python eval_tools.py to-xlsx                 # review in Excel, then: python eval_tools.py from-xlsx
+python -m src.evaluate --retrieval-only      # retrieval metrics, no LLM calls
+python -m src.evaluate --configs 0 3 4       # answer quality for three key configs
 ```
+
 Outputs land in `results/`. LLM calls are cached in `data/cache/`, so re-runs are cheap.
 
-## Docker
+## Tests
 
 ```bash
-docker compose up --build     # API :8000, UI :8501
+python -m pytest
 ```
-
-## Limitations
-- LLM-as-judge scores are noisy and depend on the judge model; spot-check a sample by hand.
-- Scanned PDFs need OCR (not included). Legacy-font Hindi PDFs may extract as garbage.
-- Tables are flattened to text, which hurts questions about tabular data.
-
-## Document sources
-_List each PDF with its source URL and download date._
