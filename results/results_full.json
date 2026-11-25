@@ -1,0 +1,128 @@
+[
+  {
+    "config": {
+      "name": "Dense only",
+      "chunking": "fixed",
+      "mode": "dense",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 0,
+      "n_unanswerable": 0,
+      "hit@1": null,
+      "hit@3": null,
+      "hit@5": null,
+      "mrr@10": null,
+      "faithfulness": null,
+      "correctness": null,
+      "false_refusal_rate": null,
+      "correct_refusal_rate": null
+    },
+    "rows": []
+  },
+  {
+    "config": {
+      "name": "BM25 only",
+      "chunking": "fixed",
+      "mode": "bm25",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 0,
+      "n_unanswerable": 0,
+      "hit@1": null,
+      "hit@3": null,
+      "hit@5": null,
+      "mrr@10": null,
+      "faithfulness": null,
+      "correctness": null,
+      "false_refusal_rate": null,
+      "correct_refusal_rate": null
+    },
+    "rows": []
+  },
+  {
+    "config": {
+      "name": "Hybrid (RRF)",
+      "chunking": "fixed",
+      "mode": "hybrid",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 0,
+      "n_unanswerable": 0,
+      "hit@1": null,
+      "hit@3": null,
+      "hit@5": null,
+      "mrr@10": null,
+      "faithfulness": null,
+      "correctness": null,
+      "false_refusal_rate": null,
+      "correct_refusal_rate": null
+    },
+    "rows": []
+  },
+  {
+    "config": {
+      "name": "Hybrid + rerank",
+      "chunking": "fixed",
+      "mode": "hybrid_rerank",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 0,
+      "n_unanswerable": 0,
+      "hit@1": null,
+      "hit@3": null,
+      "hit@5": null,
+      "mrr@10": null,
+      "faithfulness": null,
+      "correctness": null,
+      "false_refusal_rate": null,
+      "correct_refusal_rate": null
+    },
+    "rows": []
+  },
+  {
+    "config": {
+      "name": "Hybrid + rerank + strict prompt",
+      "chunking": "fixed",
+      "mode": "hybrid_rerank",
+      "strict": true
+    },
+    "summary": {
+      "n_answerable": 0,
+      "n_unanswerable": 0,
+      "hit@1": null,
+      "hit@3": null,
+      "hit@5": null,
+      "mrr@10": null,
+      "faithfulness": null,
+      "correctness": null,
+      "false_refusal_rate": null,
+      "correct_refusal_rate": null
+    },
+    "rows": []
+  },
+  {
+    "config": {
+      "name": "Semantic chunks + hybrid + rerank + strict",
+      "chunking": "semantic",
+      "mode": "hybrid_rerank",
+      "strict": true
+    },
+    "summary": {
+      "n_answerable": 0,
+      "n_unanswerable": 0,
+      "hit@1": null,
+      "hit@3": null,
+      "hit@5": null,
+      "mrr@10": null,
+      "faithfulness": null,
+      "correctness": null,
+      "false_refusal_rate": null,
+      "correct_refusal_rate": null
+    },
+    "rows": []
+  }
+]

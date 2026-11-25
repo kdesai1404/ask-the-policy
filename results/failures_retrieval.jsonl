@@ -1,0 +1,34 @@
+{"config": "Dense only", "id": "q001", "question": "What types of IEC activities are mentioned in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "Dense only", "id": "q005", "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?", "answerable": true, "language": "en", "rank": 6}
+{"config": "Dense only", "id": "q008", "question": "Which agency is responsible for monitoring at the district level according to the passage?", "answerable": true, "language": "en", "rank": 9}
+{"config": "Dense only", "id": "q015", "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?", "answerable": true, "language": "en", "rank": null}
+{"config": "Dense only", "id": "q021", "question": "According to the passage, what methods are suggested to improve local water availability?", "answerable": true, "language": "en", "rank": null}
+{"config": "Dense only", "id": "q029", "question": "According to the passage, what is the first activity listed for implementing JJM?", "answerable": true, "language": "en", "rank": null}
+{"config": "Dense only", "id": "q050", "question": "Where must information about public works be displayed according to the policy?", "answerable": true, "language": "en", "rank": null}
+{"config": "Dense only", "id": "q067", "question": "What specific activities are mentioned for community mobilization and water management in the passage?", "answerable": true, "language": "en", "rank": 6}
+{"config": "Dense only", "id": "q070", "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?", "answerable": true, "language": "en", "rank": 6}
+{"config": "Dense only", "id": "q072", "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?", "answerable": true, "language": "en", "rank": 6}
+{"config": "Dense only", "id": "q088", "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q001", "question": "What types of IEC activities are mentioned in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q020", "question": "What water-related missions are mentioned for the national, state, district, and village levels?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q021", "question": "According to the passage, what methods are suggested to improve local water availability?", "answerable": true, "language": "en", "rank": 8}
+{"config": "BM25 only", "id": "q029", "question": "According to the passage, what is the first activity listed for implementing JJM?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q035", "question": "What minimum percentage of beneficiaries must be women according to the scheme?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q054", "question": "What details must be included for each suggested work in Annexure A according to the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q073", "question": "What reports and certificates are required for state level fund release according to the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q075", "question": "What categories of accounts are mentioned for wage disbursement in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "BM25 only", "id": "q084", "question": "Who is the chairperson of the Technical Committee mentioned in the passage?", "answerable": true, "language": "en", "rank": 7}
+{"config": "BM25 only", "id": "q088", "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?", "answerable": true, "language": "en", "rank": 8}
+{"config": "Hybrid (RRF)", "id": "q001", "question": "What types of IEC activities are mentioned in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "Hybrid (RRF)", "id": "q029", "question": "According to the passage, what is the first activity listed for implementing JJM?", "answerable": true, "language": "en", "rank": null}
+{"config": "Hybrid (RRF)", "id": "q035", "question": "What minimum percentage of beneficiaries must be women according to the scheme?", "answerable": true, "language": "en", "rank": null}
+{"config": "Hybrid (RRF)", "id": "q050", "question": "Where must information about public works be displayed according to the policy?", "answerable": true, "language": "en", "rank": null}
+{"config": "Hybrid (RRF)", "id": "q070", "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?", "answerable": true, "language": "en", "rank": 6}
+{"config": "Hybrid (RRF)", "id": "q073", "question": "What reports and certificates are required for state level fund release according to the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "Hybrid (RRF)", "id": "q075", "question": "What categories of accounts are mentioned for wage disbursement in the passage?", "answerable": true, "language": "en", "rank": 6}
+{"config": "Hybrid (RRF)", "id": "q088", "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?", "answerable": true, "language": "en", "rank": 9}
+{"config": "Hybrid + rerank", "id": "q001", "question": "What types of IEC activities are mentioned in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "Hybrid + rerank + strict prompt", "id": "q001", "question": "What types of IEC activities are mentioned in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "Semantic chunks + hybrid + rerank + strict", "id": "q001", "question": "What types of IEC activities are mentioned in the passage?", "answerable": true, "language": "en", "rank": null}
+{"config": "Semantic chunks + hybrid + rerank + strict", "id": "q029", "question": "According to the passage, what is the first activity listed for implementing JJM?", "answerable": true, "language": "en", "rank": null}
+{"config": "Semantic chunks + hybrid + rerank + strict", "id": "q073", "question": "What reports and certificates are required for state level fund release according to the passage?", "answerable": true, "language": "en", "rank": null}

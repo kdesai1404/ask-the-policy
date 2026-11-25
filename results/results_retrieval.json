@@ -1,0 +1,3722 @@
+[
+  {
+    "config": {
+      "name": "Dense only",
+      "chunking": "fixed",
+      "mode": "dense",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 74,
+      "n_unanswerable": 14,
+      "hit@1": 0.6081081081081081,
+      "hit@3": 0.7837837837837838,
+      "hit@5": 0.8513513513513513,
+      "mrr@10": 0.7084834834834834
+    },
+    "rows": [
+      {
+        "id": "q001",
+        "question": "What types of IEC activities are mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q003",
+        "question": "According to the passage, can any advance payments be made to accounts other than the executing agency's account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q004",
+        "question": "What happens if a person provides incorrect information on their registration for the BPL Census 2002?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q005",
+        "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 6
+      },
+      {
+        "id": "q007",
+        "question": "What percentage of a Centrally Sponsored Scheme may a state set aside as a flexi fund?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q008",
+        "question": "Which agency is responsible for monitoring at the district level according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 9
+      },
+      {
+        "id": "q010",
+        "question": "Which types of organizations are identified as Implementation Support Agencies (ISAs) in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q011",
+        "question": "What does column 9c represent in the financial table described?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q012",
+        "question": "According to the passage, what standard defines the permissible limit for chemical contaminants in water?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q013",
+        "question": "Who heads the State Level Scheme Sanctioning Committee (SLSSC) for JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q014",
+        "question": "What type of monitoring systems are mentioned for overcoming challenges in the project?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q015",
+        "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q016",
+        "question": "What is the total duration of the course mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q017",
+        "question": "How much money does the scheme provide to each eligible farmer each year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q018",
+        "question": "How are the annual allocations of funds released to States/UTs according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q020",
+        "question": "What water-related missions are mentioned for the national, state, district, and village levels?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q021",
+        "question": "According to the passage, what methods are suggested to improve local water availability?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q022",
+        "question": "According to the passage, at which administrative levels should chat groups be set up?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q023",
+        "question": "Which agency is overall responsible for supporting, coordinating with all Centre and State level stakeholders, and monitoring the Multi Skill course for creating Nal Jal Mitras?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q025",
+        "question": "According to the passage, whose bank accounts should ideally be held in the same bank as the Gram Panchayat account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q026",
+        "question": "According to the passage, what criteria must be met for a village to be declared a 100% FHTC village?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q027",
+        "question": "Which types of stakeholders are mentioned as working in the water supply sector?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q028",
+        "question": "According to the passage, what must be consistent among Schedules of Rates (SORs) of different executing agencies for similar activities in the same area?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q029",
+        "question": "According to the passage, what is the first activity listed for implementing JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q030",
+        "question": "According to the passage, what activities are included in the State's plan to ensure drinking water security?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q031",
+        "question": "Which department is responsible for the Watershed Development Component (WDC) of the PMKSY according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q032",
+        "question": "According to the passage, what must the cumulative district‑wise projected persondays in Part II correspond to?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q033",
+        "question": "Which additional authority, besides the Chartered Accountant, audits the works under this mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q034",
+        "question": "According to the passage, who can provide water supply services at the village level?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q035",
+        "question": "What minimum percentage of beneficiaries must be women according to the scheme?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q036",
+        "question": "Which authority is tasked with taking speedy action against officials for misappropriation of funds and other serious irregularities?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q037",
+        "question": "On what date was the National Rural Employment Guarantee Act (NREGA) notified?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q038",
+        "question": "What is the minimum service level (in liters per capita per day) that the retrofitting aims to achieve?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q039",
+        "question": "Who is required to chair the Social Audit Forum meetings according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q040",
+        "question": "Which annexure in the document outlines the function activity levels of implementation centres such as State, District, Block, and Gram Panchayat?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q041",
+        "question": "What must a user do to acknowledge and agree to the disclaimer according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q042",
+        "question": "Which body prepares the annual reports on the implementation of this Act that are laid before Parliament?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q044",
+        "question": "Which government departments are responsible for providing overall guidance for the implementation of Nal Jal Mitra?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q045",
+        "question": "Which authority is required to maintain the Muster Roll Issue Register according to the Rural Employment Guarantee Act?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q046",
+        "question": "According to the passage, what details must be included in the 'Management arrangements' section of a project document?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q048",
+        "question": "What three items are included in the sample checking of engineering works for civil, mechanical, and electrical components?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q049",
+        "question": "According to the passage, can flexi-funds be used to replace a state's own schemes or for building government officials' offices?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q050",
+        "question": "Where must information about public works be displayed according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q051",
+        "question": "What quorum requirement is specified for the Social Audit Forum?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q052",
+        "question": "How many bank accounts were opened and what total wage amount (in lakhs of rupees) was disbursed through bank accounts for each district according to the report?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q053",
+        "question": "Which ministry is responsible for ensuring that comments from Central ministries and NITI Aayog are received within the stipulated time?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q054",
+        "question": "What details must be included for each suggested work in Annexure A according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q055",
+        "question": "Which organizations are designated as Implementation Support Agencies (ISAs) to help plan, design, implement, manage, operate, and maintain village water supply infrastructure?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q056",
+        "question": "How frequently will sub‑division or block laboratories test water sources for chemical parameters according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q057",
+        "question": "According to the passage, what determines the timing of payments to the ISA?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q060",
+        "question": "How is a contribution made by an MP towards a rural water supply system treated in the funding calculations under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q062",
+        "question": "Which department will execute the water scheme if the Gram Panchayat or its sub‑committee is unable to do so?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q063",
+        "question": "How many days do the central ministries and NITI Aayog have to upload their recommendations or comments on a proposal after receiving it on the portal?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q064",
+        "question": "Who is responsible for completing an incomplete registration form?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q067",
+        "question": "What specific activities are mentioned for community mobilization and water management in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 6
+      },
+      {
+        "id": "q069",
+        "question": "What does Column 8d represent in the budgeting table?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q070",
+        "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 6
+      },
+      {
+        "id": "q071",
+        "question": "Until what date are farmers in Assam, Meghalaya, and the UTs of Jammu & Kashmir and Ladakh exempted from providing an Aadhaar number for PM-KISAN enrollment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q072",
+        "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?",
+        "answerable": true,
+        "language": "en",
+        "rank": 6
+      },
+      {
+        "id": "q073",
+        "question": "What reports and certificates are required for state level fund release according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q075",
+        "question": "What categories of accounts are mentioned for wage disbursement in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q076",
+        "question": "What system does the policy recommend to minimize water loss during long-distance water transmission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q078",
+        "question": "What information does Annexure B-17 record regarding foodgrains under NREGA for a given year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q079",
+        "question": "Within how many days must the Gram Panchayat provide wage employment after receiving an application?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q080",
+        "question": "What daily water quantity per capita is required for a household tap connection to be considered functional according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q081",
+        "question": "Within how many days must a State transfer the released funds to the single nodal account of SWSM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q082",
+        "question": "According to the passage, who must certify that the Utilization Certificates and Audit Reports of the districts are in order and that no deviation from prescribed financial norms has been observed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q083",
+        "question": "At which administrative level is the maintenance of computer infrastructure and data entry for the database performed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q084",
+        "question": "Who is the chairperson of the Technical Committee mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q085",
+        "question": "What institutional reform does the passage propose to improve water supply and attract private investment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q086",
+        "question": "According to the passage, what minimum service level (in liters per capita per day) must existing water supply schemes meet to be retrofitted for FHTCs?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q087",
+        "question": "What contract mode and operation period does the passage specify as preferred for regional water supply or bulk water transfer schemes under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q088",
+        "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q090",
+        "question": "Which accreditation standard must drinking water quality testing laboratories obtain according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "u01",
+        "question": "What is the eligibility for the PM Scholarship Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u02",
+        "question": "How much health insurance cover per family does Ayushman Bharat PM-JAY provide?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u03",
+        "question": "What is the premium rate under the Pradhan Mantri Fasal Bima Yojana for rabi crops?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u04",
+        "question": "What is the maximum loan amount under PM Mudra Yojana for the Tarun category?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u05",
+        "question": "What is the income limit to apply for PM Awas Yojana Urban?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u06",
+        "question": "What is the minimum age to join the Atal Pension Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u07",
+        "question": "What is the interest subvention rate on Kisan Credit Card loans?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u08",
+        "question": "What benefits does the Sukanya Samriddhi Yojana offer to a girl child?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u09",
+        "question": "What is the eligibility for the PM Vishwakarma scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u10",
+        "question": "How much subsidy is given for rooftop solar under PM Surya Ghar Muft Bijli Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u11",
+        "question": "What is the monthly pension under the PM Shram Yogi Maandhan scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u12",
+        "question": "What is the stipend under the National Apprenticeship Promotion Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u13",
+        "question": "What cash benefit does the Janani Suraksha Yojana give for institutional delivery?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u14",
+        "question": "What is the loan range under the Stand-Up India scheme?",
+        "answerable": false,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "BM25 only",
+      "chunking": "fixed",
+      "mode": "bm25",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 74,
+      "n_unanswerable": 14,
+      "hit@1": 0.581081081081081,
+      "hit@3": 0.8108108108108109,
+      "hit@5": 0.8648648648648649,
+      "mrr@10": 0.7014800514800515
+    },
+    "rows": [
+      {
+        "id": "q001",
+        "question": "What types of IEC activities are mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q003",
+        "question": "According to the passage, can any advance payments be made to accounts other than the executing agency's account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q004",
+        "question": "What happens if a person provides incorrect information on their registration for the BPL Census 2002?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q005",
+        "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q007",
+        "question": "What percentage of a Centrally Sponsored Scheme may a state set aside as a flexi fund?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q008",
+        "question": "Which agency is responsible for monitoring at the district level according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q010",
+        "question": "Which types of organizations are identified as Implementation Support Agencies (ISAs) in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q011",
+        "question": "What does column 9c represent in the financial table described?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q012",
+        "question": "According to the passage, what standard defines the permissible limit for chemical contaminants in water?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q013",
+        "question": "Who heads the State Level Scheme Sanctioning Committee (SLSSC) for JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q014",
+        "question": "What type of monitoring systems are mentioned for overcoming challenges in the project?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q015",
+        "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q016",
+        "question": "What is the total duration of the course mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q017",
+        "question": "How much money does the scheme provide to each eligible farmer each year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q018",
+        "question": "How are the annual allocations of funds released to States/UTs according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q020",
+        "question": "What water-related missions are mentioned for the national, state, district, and village levels?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q021",
+        "question": "According to the passage, what methods are suggested to improve local water availability?",
+        "answerable": true,
+        "language": "en",
+        "rank": 8
+      },
+      {
+        "id": "q022",
+        "question": "According to the passage, at which administrative levels should chat groups be set up?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q023",
+        "question": "Which agency is overall responsible for supporting, coordinating with all Centre and State level stakeholders, and monitoring the Multi Skill course for creating Nal Jal Mitras?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q025",
+        "question": "According to the passage, whose bank accounts should ideally be held in the same bank as the Gram Panchayat account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q026",
+        "question": "According to the passage, what criteria must be met for a village to be declared a 100% FHTC village?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q027",
+        "question": "Which types of stakeholders are mentioned as working in the water supply sector?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q028",
+        "question": "According to the passage, what must be consistent among Schedules of Rates (SORs) of different executing agencies for similar activities in the same area?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q029",
+        "question": "According to the passage, what is the first activity listed for implementing JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q030",
+        "question": "According to the passage, what activities are included in the State's plan to ensure drinking water security?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q031",
+        "question": "Which department is responsible for the Watershed Development Component (WDC) of the PMKSY according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q032",
+        "question": "According to the passage, what must the cumulative district‑wise projected persondays in Part II correspond to?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q033",
+        "question": "Which additional authority, besides the Chartered Accountant, audits the works under this mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q034",
+        "question": "According to the passage, who can provide water supply services at the village level?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q035",
+        "question": "What minimum percentage of beneficiaries must be women according to the scheme?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q036",
+        "question": "Which authority is tasked with taking speedy action against officials for misappropriation of funds and other serious irregularities?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q037",
+        "question": "On what date was the National Rural Employment Guarantee Act (NREGA) notified?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q038",
+        "question": "What is the minimum service level (in liters per capita per day) that the retrofitting aims to achieve?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q039",
+        "question": "Who is required to chair the Social Audit Forum meetings according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q040",
+        "question": "Which annexure in the document outlines the function activity levels of implementation centres such as State, District, Block, and Gram Panchayat?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q041",
+        "question": "What must a user do to acknowledge and agree to the disclaimer according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q042",
+        "question": "Which body prepares the annual reports on the implementation of this Act that are laid before Parliament?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q044",
+        "question": "Which government departments are responsible for providing overall guidance for the implementation of Nal Jal Mitra?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q045",
+        "question": "Which authority is required to maintain the Muster Roll Issue Register according to the Rural Employment Guarantee Act?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q046",
+        "question": "According to the passage, what details must be included in the 'Management arrangements' section of a project document?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q048",
+        "question": "What three items are included in the sample checking of engineering works for civil, mechanical, and electrical components?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q049",
+        "question": "According to the passage, can flexi-funds be used to replace a state's own schemes or for building government officials' offices?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q050",
+        "question": "Where must information about public works be displayed according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q051",
+        "question": "What quorum requirement is specified for the Social Audit Forum?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q052",
+        "question": "How many bank accounts were opened and what total wage amount (in lakhs of rupees) was disbursed through bank accounts for each district according to the report?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q053",
+        "question": "Which ministry is responsible for ensuring that comments from Central ministries and NITI Aayog are received within the stipulated time?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q054",
+        "question": "What details must be included for each suggested work in Annexure A according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q055",
+        "question": "Which organizations are designated as Implementation Support Agencies (ISAs) to help plan, design, implement, manage, operate, and maintain village water supply infrastructure?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q056",
+        "question": "How frequently will sub‑division or block laboratories test water sources for chemical parameters according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q057",
+        "question": "According to the passage, what determines the timing of payments to the ISA?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q060",
+        "question": "How is a contribution made by an MP towards a rural water supply system treated in the funding calculations under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q062",
+        "question": "Which department will execute the water scheme if the Gram Panchayat or its sub‑committee is unable to do so?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q063",
+        "question": "How many days do the central ministries and NITI Aayog have to upload their recommendations or comments on a proposal after receiving it on the portal?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q064",
+        "question": "Who is responsible for completing an incomplete registration form?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q067",
+        "question": "What specific activities are mentioned for community mobilization and water management in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q069",
+        "question": "What does Column 8d represent in the budgeting table?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q070",
+        "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q071",
+        "question": "Until what date are farmers in Assam, Meghalaya, and the UTs of Jammu & Kashmir and Ladakh exempted from providing an Aadhaar number for PM-KISAN enrollment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q072",
+        "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q073",
+        "question": "What reports and certificates are required for state level fund release according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q075",
+        "question": "What categories of accounts are mentioned for wage disbursement in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q076",
+        "question": "What system does the policy recommend to minimize water loss during long-distance water transmission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q078",
+        "question": "What information does Annexure B-17 record regarding foodgrains under NREGA for a given year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q079",
+        "question": "Within how many days must the Gram Panchayat provide wage employment after receiving an application?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q080",
+        "question": "What daily water quantity per capita is required for a household tap connection to be considered functional according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q081",
+        "question": "Within how many days must a State transfer the released funds to the single nodal account of SWSM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q082",
+        "question": "According to the passage, who must certify that the Utilization Certificates and Audit Reports of the districts are in order and that no deviation from prescribed financial norms has been observed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q083",
+        "question": "At which administrative level is the maintenance of computer infrastructure and data entry for the database performed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q084",
+        "question": "Who is the chairperson of the Technical Committee mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 7
+      },
+      {
+        "id": "q085",
+        "question": "What institutional reform does the passage propose to improve water supply and attract private investment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q086",
+        "question": "According to the passage, what minimum service level (in liters per capita per day) must existing water supply schemes meet to be retrofitted for FHTCs?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q087",
+        "question": "What contract mode and operation period does the passage specify as preferred for regional water supply or bulk water transfer schemes under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q088",
+        "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 8
+      },
+      {
+        "id": "q090",
+        "question": "Which accreditation standard must drinking water quality testing laboratories obtain according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "u01",
+        "question": "What is the eligibility for the PM Scholarship Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u02",
+        "question": "How much health insurance cover per family does Ayushman Bharat PM-JAY provide?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u03",
+        "question": "What is the premium rate under the Pradhan Mantri Fasal Bima Yojana for rabi crops?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u04",
+        "question": "What is the maximum loan amount under PM Mudra Yojana for the Tarun category?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u05",
+        "question": "What is the income limit to apply for PM Awas Yojana Urban?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u06",
+        "question": "What is the minimum age to join the Atal Pension Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u07",
+        "question": "What is the interest subvention rate on Kisan Credit Card loans?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u08",
+        "question": "What benefits does the Sukanya Samriddhi Yojana offer to a girl child?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u09",
+        "question": "What is the eligibility for the PM Vishwakarma scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u10",
+        "question": "How much subsidy is given for rooftop solar under PM Surya Ghar Muft Bijli Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u11",
+        "question": "What is the monthly pension under the PM Shram Yogi Maandhan scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u12",
+        "question": "What is the stipend under the National Apprenticeship Promotion Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u13",
+        "question": "What cash benefit does the Janani Suraksha Yojana give for institutional delivery?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u14",
+        "question": "What is the loan range under the Stand-Up India scheme?",
+        "answerable": false,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "Hybrid (RRF)",
+      "chunking": "fixed",
+      "mode": "hybrid",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 74,
+      "n_unanswerable": 14,
+      "hit@1": 0.7162162162162162,
+      "hit@3": 0.8378378378378378,
+      "hit@5": 0.8918918918918919,
+      "mrr@10": 0.7877627627627628
+    },
+    "rows": [
+      {
+        "id": "q001",
+        "question": "What types of IEC activities are mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q003",
+        "question": "According to the passage, can any advance payments be made to accounts other than the executing agency's account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q004",
+        "question": "What happens if a person provides incorrect information on their registration for the BPL Census 2002?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q005",
+        "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q007",
+        "question": "What percentage of a Centrally Sponsored Scheme may a state set aside as a flexi fund?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q008",
+        "question": "Which agency is responsible for monitoring at the district level according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q010",
+        "question": "Which types of organizations are identified as Implementation Support Agencies (ISAs) in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q011",
+        "question": "What does column 9c represent in the financial table described?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q012",
+        "question": "According to the passage, what standard defines the permissible limit for chemical contaminants in water?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q013",
+        "question": "Who heads the State Level Scheme Sanctioning Committee (SLSSC) for JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q014",
+        "question": "What type of monitoring systems are mentioned for overcoming challenges in the project?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q015",
+        "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q016",
+        "question": "What is the total duration of the course mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q017",
+        "question": "How much money does the scheme provide to each eligible farmer each year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q018",
+        "question": "How are the annual allocations of funds released to States/UTs according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q020",
+        "question": "What water-related missions are mentioned for the national, state, district, and village levels?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q021",
+        "question": "According to the passage, what methods are suggested to improve local water availability?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q022",
+        "question": "According to the passage, at which administrative levels should chat groups be set up?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q023",
+        "question": "Which agency is overall responsible for supporting, coordinating with all Centre and State level stakeholders, and monitoring the Multi Skill course for creating Nal Jal Mitras?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q025",
+        "question": "According to the passage, whose bank accounts should ideally be held in the same bank as the Gram Panchayat account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q026",
+        "question": "According to the passage, what criteria must be met for a village to be declared a 100% FHTC village?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q027",
+        "question": "Which types of stakeholders are mentioned as working in the water supply sector?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q028",
+        "question": "According to the passage, what must be consistent among Schedules of Rates (SORs) of different executing agencies for similar activities in the same area?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q029",
+        "question": "According to the passage, what is the first activity listed for implementing JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q030",
+        "question": "According to the passage, what activities are included in the State's plan to ensure drinking water security?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q031",
+        "question": "Which department is responsible for the Watershed Development Component (WDC) of the PMKSY according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q032",
+        "question": "According to the passage, what must the cumulative district‑wise projected persondays in Part II correspond to?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q033",
+        "question": "Which additional authority, besides the Chartered Accountant, audits the works under this mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q034",
+        "question": "According to the passage, who can provide water supply services at the village level?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q035",
+        "question": "What minimum percentage of beneficiaries must be women according to the scheme?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q036",
+        "question": "Which authority is tasked with taking speedy action against officials for misappropriation of funds and other serious irregularities?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q037",
+        "question": "On what date was the National Rural Employment Guarantee Act (NREGA) notified?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q038",
+        "question": "What is the minimum service level (in liters per capita per day) that the retrofitting aims to achieve?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q039",
+        "question": "Who is required to chair the Social Audit Forum meetings according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q040",
+        "question": "Which annexure in the document outlines the function activity levels of implementation centres such as State, District, Block, and Gram Panchayat?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q041",
+        "question": "What must a user do to acknowledge and agree to the disclaimer according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q042",
+        "question": "Which body prepares the annual reports on the implementation of this Act that are laid before Parliament?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q044",
+        "question": "Which government departments are responsible for providing overall guidance for the implementation of Nal Jal Mitra?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q045",
+        "question": "Which authority is required to maintain the Muster Roll Issue Register according to the Rural Employment Guarantee Act?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q046",
+        "question": "According to the passage, what details must be included in the 'Management arrangements' section of a project document?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q048",
+        "question": "What three items are included in the sample checking of engineering works for civil, mechanical, and electrical components?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q049",
+        "question": "According to the passage, can flexi-funds be used to replace a state's own schemes or for building government officials' offices?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q050",
+        "question": "Where must information about public works be displayed according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q051",
+        "question": "What quorum requirement is specified for the Social Audit Forum?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q052",
+        "question": "How many bank accounts were opened and what total wage amount (in lakhs of rupees) was disbursed through bank accounts for each district according to the report?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q053",
+        "question": "Which ministry is responsible for ensuring that comments from Central ministries and NITI Aayog are received within the stipulated time?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q054",
+        "question": "What details must be included for each suggested work in Annexure A according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q055",
+        "question": "Which organizations are designated as Implementation Support Agencies (ISAs) to help plan, design, implement, manage, operate, and maintain village water supply infrastructure?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q056",
+        "question": "How frequently will sub‑division or block laboratories test water sources for chemical parameters according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q057",
+        "question": "According to the passage, what determines the timing of payments to the ISA?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q060",
+        "question": "How is a contribution made by an MP towards a rural water supply system treated in the funding calculations under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q062",
+        "question": "Which department will execute the water scheme if the Gram Panchayat or its sub‑committee is unable to do so?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q063",
+        "question": "How many days do the central ministries and NITI Aayog have to upload their recommendations or comments on a proposal after receiving it on the portal?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q064",
+        "question": "Who is responsible for completing an incomplete registration form?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q067",
+        "question": "What specific activities are mentioned for community mobilization and water management in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q069",
+        "question": "What does Column 8d represent in the budgeting table?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q070",
+        "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 6
+      },
+      {
+        "id": "q071",
+        "question": "Until what date are farmers in Assam, Meghalaya, and the UTs of Jammu & Kashmir and Ladakh exempted from providing an Aadhaar number for PM-KISAN enrollment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q072",
+        "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q073",
+        "question": "What reports and certificates are required for state level fund release according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q075",
+        "question": "What categories of accounts are mentioned for wage disbursement in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 6
+      },
+      {
+        "id": "q076",
+        "question": "What system does the policy recommend to minimize water loss during long-distance water transmission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q078",
+        "question": "What information does Annexure B-17 record regarding foodgrains under NREGA for a given year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q079",
+        "question": "Within how many days must the Gram Panchayat provide wage employment after receiving an application?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q080",
+        "question": "What daily water quantity per capita is required for a household tap connection to be considered functional according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q081",
+        "question": "Within how many days must a State transfer the released funds to the single nodal account of SWSM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q082",
+        "question": "According to the passage, who must certify that the Utilization Certificates and Audit Reports of the districts are in order and that no deviation from prescribed financial norms has been observed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q083",
+        "question": "At which administrative level is the maintenance of computer infrastructure and data entry for the database performed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q084",
+        "question": "Who is the chairperson of the Technical Committee mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q085",
+        "question": "What institutional reform does the passage propose to improve water supply and attract private investment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q086",
+        "question": "According to the passage, what minimum service level (in liters per capita per day) must existing water supply schemes meet to be retrofitted for FHTCs?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q087",
+        "question": "What contract mode and operation period does the passage specify as preferred for regional water supply or bulk water transfer schemes under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q088",
+        "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 9
+      },
+      {
+        "id": "q090",
+        "question": "Which accreditation standard must drinking water quality testing laboratories obtain according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "u01",
+        "question": "What is the eligibility for the PM Scholarship Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u02",
+        "question": "How much health insurance cover per family does Ayushman Bharat PM-JAY provide?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u03",
+        "question": "What is the premium rate under the Pradhan Mantri Fasal Bima Yojana for rabi crops?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u04",
+        "question": "What is the maximum loan amount under PM Mudra Yojana for the Tarun category?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u05",
+        "question": "What is the income limit to apply for PM Awas Yojana Urban?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u06",
+        "question": "What is the minimum age to join the Atal Pension Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u07",
+        "question": "What is the interest subvention rate on Kisan Credit Card loans?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u08",
+        "question": "What benefits does the Sukanya Samriddhi Yojana offer to a girl child?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u09",
+        "question": "What is the eligibility for the PM Vishwakarma scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u10",
+        "question": "How much subsidy is given for rooftop solar under PM Surya Ghar Muft Bijli Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u11",
+        "question": "What is the monthly pension under the PM Shram Yogi Maandhan scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u12",
+        "question": "What is the stipend under the National Apprenticeship Promotion Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u13",
+        "question": "What cash benefit does the Janani Suraksha Yojana give for institutional delivery?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u14",
+        "question": "What is the loan range under the Stand-Up India scheme?",
+        "answerable": false,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "Hybrid + rerank",
+      "chunking": "fixed",
+      "mode": "hybrid_rerank",
+      "strict": false
+    },
+    "summary": {
+      "n_answerable": 74,
+      "n_unanswerable": 14,
+      "hit@1": 0.8378378378378378,
+      "hit@3": 0.9459459459459459,
+      "hit@5": 0.9864864864864865,
+      "mrr@10": 0.8945945945945947
+    },
+    "rows": [
+      {
+        "id": "q001",
+        "question": "What types of IEC activities are mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q003",
+        "question": "According to the passage, can any advance payments be made to accounts other than the executing agency's account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q004",
+        "question": "What happens if a person provides incorrect information on their registration for the BPL Census 2002?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q005",
+        "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q007",
+        "question": "What percentage of a Centrally Sponsored Scheme may a state set aside as a flexi fund?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q008",
+        "question": "Which agency is responsible for monitoring at the district level according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q010",
+        "question": "Which types of organizations are identified as Implementation Support Agencies (ISAs) in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q011",
+        "question": "What does column 9c represent in the financial table described?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q012",
+        "question": "According to the passage, what standard defines the permissible limit for chemical contaminants in water?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q013",
+        "question": "Who heads the State Level Scheme Sanctioning Committee (SLSSC) for JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q014",
+        "question": "What type of monitoring systems are mentioned for overcoming challenges in the project?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q015",
+        "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q016",
+        "question": "What is the total duration of the course mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q017",
+        "question": "How much money does the scheme provide to each eligible farmer each year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q018",
+        "question": "How are the annual allocations of funds released to States/UTs according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q020",
+        "question": "What water-related missions are mentioned for the national, state, district, and village levels?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q021",
+        "question": "According to the passage, what methods are suggested to improve local water availability?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q022",
+        "question": "According to the passage, at which administrative levels should chat groups be set up?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q023",
+        "question": "Which agency is overall responsible for supporting, coordinating with all Centre and State level stakeholders, and monitoring the Multi Skill course for creating Nal Jal Mitras?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q025",
+        "question": "According to the passage, whose bank accounts should ideally be held in the same bank as the Gram Panchayat account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q026",
+        "question": "According to the passage, what criteria must be met for a village to be declared a 100% FHTC village?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q027",
+        "question": "Which types of stakeholders are mentioned as working in the water supply sector?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q028",
+        "question": "According to the passage, what must be consistent among Schedules of Rates (SORs) of different executing agencies for similar activities in the same area?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q029",
+        "question": "According to the passage, what is the first activity listed for implementing JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q030",
+        "question": "According to the passage, what activities are included in the State's plan to ensure drinking water security?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q031",
+        "question": "Which department is responsible for the Watershed Development Component (WDC) of the PMKSY according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q032",
+        "question": "According to the passage, what must the cumulative district‑wise projected persondays in Part II correspond to?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q033",
+        "question": "Which additional authority, besides the Chartered Accountant, audits the works under this mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q034",
+        "question": "According to the passage, who can provide water supply services at the village level?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q035",
+        "question": "What minimum percentage of beneficiaries must be women according to the scheme?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q036",
+        "question": "Which authority is tasked with taking speedy action against officials for misappropriation of funds and other serious irregularities?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q037",
+        "question": "On what date was the National Rural Employment Guarantee Act (NREGA) notified?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q038",
+        "question": "What is the minimum service level (in liters per capita per day) that the retrofitting aims to achieve?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q039",
+        "question": "Who is required to chair the Social Audit Forum meetings according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q040",
+        "question": "Which annexure in the document outlines the function activity levels of implementation centres such as State, District, Block, and Gram Panchayat?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q041",
+        "question": "What must a user do to acknowledge and agree to the disclaimer according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q042",
+        "question": "Which body prepares the annual reports on the implementation of this Act that are laid before Parliament?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q044",
+        "question": "Which government departments are responsible for providing overall guidance for the implementation of Nal Jal Mitra?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q045",
+        "question": "Which authority is required to maintain the Muster Roll Issue Register according to the Rural Employment Guarantee Act?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q046",
+        "question": "According to the passage, what details must be included in the 'Management arrangements' section of a project document?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q048",
+        "question": "What three items are included in the sample checking of engineering works for civil, mechanical, and electrical components?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q049",
+        "question": "According to the passage, can flexi-funds be used to replace a state's own schemes or for building government officials' offices?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q050",
+        "question": "Where must information about public works be displayed according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q051",
+        "question": "What quorum requirement is specified for the Social Audit Forum?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q052",
+        "question": "How many bank accounts were opened and what total wage amount (in lakhs of rupees) was disbursed through bank accounts for each district according to the report?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q053",
+        "question": "Which ministry is responsible for ensuring that comments from Central ministries and NITI Aayog are received within the stipulated time?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q054",
+        "question": "What details must be included for each suggested work in Annexure A according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q055",
+        "question": "Which organizations are designated as Implementation Support Agencies (ISAs) to help plan, design, implement, manage, operate, and maintain village water supply infrastructure?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q056",
+        "question": "How frequently will sub‑division or block laboratories test water sources for chemical parameters according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q057",
+        "question": "According to the passage, what determines the timing of payments to the ISA?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q060",
+        "question": "How is a contribution made by an MP towards a rural water supply system treated in the funding calculations under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q062",
+        "question": "Which department will execute the water scheme if the Gram Panchayat or its sub‑committee is unable to do so?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q063",
+        "question": "How many days do the central ministries and NITI Aayog have to upload their recommendations or comments on a proposal after receiving it on the portal?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q064",
+        "question": "Who is responsible for completing an incomplete registration form?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q067",
+        "question": "What specific activities are mentioned for community mobilization and water management in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q069",
+        "question": "What does Column 8d represent in the budgeting table?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q070",
+        "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q071",
+        "question": "Until what date are farmers in Assam, Meghalaya, and the UTs of Jammu & Kashmir and Ladakh exempted from providing an Aadhaar number for PM-KISAN enrollment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q072",
+        "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q073",
+        "question": "What reports and certificates are required for state level fund release according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q075",
+        "question": "What categories of accounts are mentioned for wage disbursement in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q076",
+        "question": "What system does the policy recommend to minimize water loss during long-distance water transmission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q078",
+        "question": "What information does Annexure B-17 record regarding foodgrains under NREGA for a given year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q079",
+        "question": "Within how many days must the Gram Panchayat provide wage employment after receiving an application?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q080",
+        "question": "What daily water quantity per capita is required for a household tap connection to be considered functional according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q081",
+        "question": "Within how many days must a State transfer the released funds to the single nodal account of SWSM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q082",
+        "question": "According to the passage, who must certify that the Utilization Certificates and Audit Reports of the districts are in order and that no deviation from prescribed financial norms has been observed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q083",
+        "question": "At which administrative level is the maintenance of computer infrastructure and data entry for the database performed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q084",
+        "question": "Who is the chairperson of the Technical Committee mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q085",
+        "question": "What institutional reform does the passage propose to improve water supply and attract private investment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q086",
+        "question": "According to the passage, what minimum service level (in liters per capita per day) must existing water supply schemes meet to be retrofitted for FHTCs?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q087",
+        "question": "What contract mode and operation period does the passage specify as preferred for regional water supply or bulk water transfer schemes under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q088",
+        "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q090",
+        "question": "Which accreditation standard must drinking water quality testing laboratories obtain according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "u01",
+        "question": "What is the eligibility for the PM Scholarship Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u02",
+        "question": "How much health insurance cover per family does Ayushman Bharat PM-JAY provide?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u03",
+        "question": "What is the premium rate under the Pradhan Mantri Fasal Bima Yojana for rabi crops?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u04",
+        "question": "What is the maximum loan amount under PM Mudra Yojana for the Tarun category?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u05",
+        "question": "What is the income limit to apply for PM Awas Yojana Urban?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u06",
+        "question": "What is the minimum age to join the Atal Pension Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u07",
+        "question": "What is the interest subvention rate on Kisan Credit Card loans?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u08",
+        "question": "What benefits does the Sukanya Samriddhi Yojana offer to a girl child?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u09",
+        "question": "What is the eligibility for the PM Vishwakarma scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u10",
+        "question": "How much subsidy is given for rooftop solar under PM Surya Ghar Muft Bijli Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u11",
+        "question": "What is the monthly pension under the PM Shram Yogi Maandhan scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u12",
+        "question": "What is the stipend under the National Apprenticeship Promotion Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u13",
+        "question": "What cash benefit does the Janani Suraksha Yojana give for institutional delivery?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u14",
+        "question": "What is the loan range under the Stand-Up India scheme?",
+        "answerable": false,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "Hybrid + rerank + strict prompt",
+      "chunking": "fixed",
+      "mode": "hybrid_rerank",
+      "strict": true
+    },
+    "summary": {
+      "n_answerable": 74,
+      "n_unanswerable": 14,
+      "hit@1": 0.8378378378378378,
+      "hit@3": 0.9459459459459459,
+      "hit@5": 0.9864864864864865,
+      "mrr@10": 0.8945945945945947
+    },
+    "rows": [
+      {
+        "id": "q001",
+        "question": "What types of IEC activities are mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q003",
+        "question": "According to the passage, can any advance payments be made to accounts other than the executing agency's account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q004",
+        "question": "What happens if a person provides incorrect information on their registration for the BPL Census 2002?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q005",
+        "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q007",
+        "question": "What percentage of a Centrally Sponsored Scheme may a state set aside as a flexi fund?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q008",
+        "question": "Which agency is responsible for monitoring at the district level according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q010",
+        "question": "Which types of organizations are identified as Implementation Support Agencies (ISAs) in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q011",
+        "question": "What does column 9c represent in the financial table described?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q012",
+        "question": "According to the passage, what standard defines the permissible limit for chemical contaminants in water?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q013",
+        "question": "Who heads the State Level Scheme Sanctioning Committee (SLSSC) for JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q014",
+        "question": "What type of monitoring systems are mentioned for overcoming challenges in the project?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q015",
+        "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q016",
+        "question": "What is the total duration of the course mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q017",
+        "question": "How much money does the scheme provide to each eligible farmer each year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q018",
+        "question": "How are the annual allocations of funds released to States/UTs according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q020",
+        "question": "What water-related missions are mentioned for the national, state, district, and village levels?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q021",
+        "question": "According to the passage, what methods are suggested to improve local water availability?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q022",
+        "question": "According to the passage, at which administrative levels should chat groups be set up?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q023",
+        "question": "Which agency is overall responsible for supporting, coordinating with all Centre and State level stakeholders, and monitoring the Multi Skill course for creating Nal Jal Mitras?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q025",
+        "question": "According to the passage, whose bank accounts should ideally be held in the same bank as the Gram Panchayat account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q026",
+        "question": "According to the passage, what criteria must be met for a village to be declared a 100% FHTC village?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q027",
+        "question": "Which types of stakeholders are mentioned as working in the water supply sector?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q028",
+        "question": "According to the passage, what must be consistent among Schedules of Rates (SORs) of different executing agencies for similar activities in the same area?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q029",
+        "question": "According to the passage, what is the first activity listed for implementing JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q030",
+        "question": "According to the passage, what activities are included in the State's plan to ensure drinking water security?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q031",
+        "question": "Which department is responsible for the Watershed Development Component (WDC) of the PMKSY according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q032",
+        "question": "According to the passage, what must the cumulative district‑wise projected persondays in Part II correspond to?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q033",
+        "question": "Which additional authority, besides the Chartered Accountant, audits the works under this mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q034",
+        "question": "According to the passage, who can provide water supply services at the village level?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q035",
+        "question": "What minimum percentage of beneficiaries must be women according to the scheme?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q036",
+        "question": "Which authority is tasked with taking speedy action against officials for misappropriation of funds and other serious irregularities?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q037",
+        "question": "On what date was the National Rural Employment Guarantee Act (NREGA) notified?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q038",
+        "question": "What is the minimum service level (in liters per capita per day) that the retrofitting aims to achieve?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q039",
+        "question": "Who is required to chair the Social Audit Forum meetings according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q040",
+        "question": "Which annexure in the document outlines the function activity levels of implementation centres such as State, District, Block, and Gram Panchayat?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q041",
+        "question": "What must a user do to acknowledge and agree to the disclaimer according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q042",
+        "question": "Which body prepares the annual reports on the implementation of this Act that are laid before Parliament?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q044",
+        "question": "Which government departments are responsible for providing overall guidance for the implementation of Nal Jal Mitra?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q045",
+        "question": "Which authority is required to maintain the Muster Roll Issue Register according to the Rural Employment Guarantee Act?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q046",
+        "question": "According to the passage, what details must be included in the 'Management arrangements' section of a project document?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q048",
+        "question": "What three items are included in the sample checking of engineering works for civil, mechanical, and electrical components?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q049",
+        "question": "According to the passage, can flexi-funds be used to replace a state's own schemes or for building government officials' offices?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q050",
+        "question": "Where must information about public works be displayed according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q051",
+        "question": "What quorum requirement is specified for the Social Audit Forum?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q052",
+        "question": "How many bank accounts were opened and what total wage amount (in lakhs of rupees) was disbursed through bank accounts for each district according to the report?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q053",
+        "question": "Which ministry is responsible for ensuring that comments from Central ministries and NITI Aayog are received within the stipulated time?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q054",
+        "question": "What details must be included for each suggested work in Annexure A according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q055",
+        "question": "Which organizations are designated as Implementation Support Agencies (ISAs) to help plan, design, implement, manage, operate, and maintain village water supply infrastructure?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q056",
+        "question": "How frequently will sub‑division or block laboratories test water sources for chemical parameters according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q057",
+        "question": "According to the passage, what determines the timing of payments to the ISA?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q060",
+        "question": "How is a contribution made by an MP towards a rural water supply system treated in the funding calculations under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q062",
+        "question": "Which department will execute the water scheme if the Gram Panchayat or its sub‑committee is unable to do so?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q063",
+        "question": "How many days do the central ministries and NITI Aayog have to upload their recommendations or comments on a proposal after receiving it on the portal?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q064",
+        "question": "Who is responsible for completing an incomplete registration form?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q067",
+        "question": "What specific activities are mentioned for community mobilization and water management in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q069",
+        "question": "What does Column 8d represent in the budgeting table?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q070",
+        "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q071",
+        "question": "Until what date are farmers in Assam, Meghalaya, and the UTs of Jammu & Kashmir and Ladakh exempted from providing an Aadhaar number for PM-KISAN enrollment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q072",
+        "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q073",
+        "question": "What reports and certificates are required for state level fund release according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q075",
+        "question": "What categories of accounts are mentioned for wage disbursement in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q076",
+        "question": "What system does the policy recommend to minimize water loss during long-distance water transmission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q078",
+        "question": "What information does Annexure B-17 record regarding foodgrains under NREGA for a given year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q079",
+        "question": "Within how many days must the Gram Panchayat provide wage employment after receiving an application?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q080",
+        "question": "What daily water quantity per capita is required for a household tap connection to be considered functional according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q081",
+        "question": "Within how many days must a State transfer the released funds to the single nodal account of SWSM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q082",
+        "question": "According to the passage, who must certify that the Utilization Certificates and Audit Reports of the districts are in order and that no deviation from prescribed financial norms has been observed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q083",
+        "question": "At which administrative level is the maintenance of computer infrastructure and data entry for the database performed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q084",
+        "question": "Who is the chairperson of the Technical Committee mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q085",
+        "question": "What institutional reform does the passage propose to improve water supply and attract private investment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q086",
+        "question": "According to the passage, what minimum service level (in liters per capita per day) must existing water supply schemes meet to be retrofitted for FHTCs?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q087",
+        "question": "What contract mode and operation period does the passage specify as preferred for regional water supply or bulk water transfer schemes under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q088",
+        "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q090",
+        "question": "Which accreditation standard must drinking water quality testing laboratories obtain according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "u01",
+        "question": "What is the eligibility for the PM Scholarship Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u02",
+        "question": "How much health insurance cover per family does Ayushman Bharat PM-JAY provide?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u03",
+        "question": "What is the premium rate under the Pradhan Mantri Fasal Bima Yojana for rabi crops?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u04",
+        "question": "What is the maximum loan amount under PM Mudra Yojana for the Tarun category?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u05",
+        "question": "What is the income limit to apply for PM Awas Yojana Urban?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u06",
+        "question": "What is the minimum age to join the Atal Pension Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u07",
+        "question": "What is the interest subvention rate on Kisan Credit Card loans?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u08",
+        "question": "What benefits does the Sukanya Samriddhi Yojana offer to a girl child?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u09",
+        "question": "What is the eligibility for the PM Vishwakarma scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u10",
+        "question": "How much subsidy is given for rooftop solar under PM Surya Ghar Muft Bijli Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u11",
+        "question": "What is the monthly pension under the PM Shram Yogi Maandhan scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u12",
+        "question": "What is the stipend under the National Apprenticeship Promotion Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u13",
+        "question": "What cash benefit does the Janani Suraksha Yojana give for institutional delivery?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u14",
+        "question": "What is the loan range under the Stand-Up India scheme?",
+        "answerable": false,
+        "language": "en"
+      }
+    ]
+  },
+  {
+    "config": {
+      "name": "Semantic chunks + hybrid + rerank + strict",
+      "chunking": "semantic",
+      "mode": "hybrid_rerank",
+      "strict": true
+    },
+    "summary": {
+      "n_answerable": 74,
+      "n_unanswerable": 14,
+      "hit@1": 0.7972972972972973,
+      "hit@3": 0.9054054054054054,
+      "hit@5": 0.9594594594594594,
+      "mrr@10": 0.8596846846846847
+    },
+    "rows": [
+      {
+        "id": "q001",
+        "question": "What types of IEC activities are mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q003",
+        "question": "According to the passage, can any advance payments be made to accounts other than the executing agency's account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q004",
+        "question": "What happens if a person provides incorrect information on their registration for the BPL Census 2002?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q005",
+        "question": "On what date did the Prime Minister announce the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q007",
+        "question": "What percentage of a Centrally Sponsored Scheme may a state set aside as a flexi fund?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q008",
+        "question": "Which agency is responsible for monitoring at the district level according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q010",
+        "question": "Which types of organizations are identified as Implementation Support Agencies (ISAs) in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q011",
+        "question": "What does column 9c represent in the financial table described?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q012",
+        "question": "According to the passage, what standard defines the permissible limit for chemical contaminants in water?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q013",
+        "question": "Who heads the State Level Scheme Sanctioning Committee (SLSSC) for JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q014",
+        "question": "What type of monitoring systems are mentioned for overcoming challenges in the project?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q015",
+        "question": "What minimum service level (in liters per capita per day) is specified for retrofitting completed and ongoing water schemes?",
+        "answerable": true,
+        "language": "en",
+        "rank": 5
+      },
+      {
+        "id": "q016",
+        "question": "What is the total duration of the course mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q017",
+        "question": "How much money does the scheme provide to each eligible farmer each year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q018",
+        "question": "How are the annual allocations of funds released to States/UTs according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q020",
+        "question": "What water-related missions are mentioned for the national, state, district, and village levels?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q021",
+        "question": "According to the passage, what methods are suggested to improve local water availability?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q022",
+        "question": "According to the passage, at which administrative levels should chat groups be set up?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q023",
+        "question": "Which agency is overall responsible for supporting, coordinating with all Centre and State level stakeholders, and monitoring the Multi Skill course for creating Nal Jal Mitras?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q025",
+        "question": "According to the passage, whose bank accounts should ideally be held in the same bank as the Gram Panchayat account?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q026",
+        "question": "According to the passage, what criteria must be met for a village to be declared a 100% FHTC village?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q027",
+        "question": "Which types of stakeholders are mentioned as working in the water supply sector?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q028",
+        "question": "According to the passage, what must be consistent among Schedules of Rates (SORs) of different executing agencies for similar activities in the same area?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q029",
+        "question": "According to the passage, what is the first activity listed for implementing JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q030",
+        "question": "According to the passage, what activities are included in the State's plan to ensure drinking water security?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q031",
+        "question": "Which department is responsible for the Watershed Development Component (WDC) of the PMKSY according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q032",
+        "question": "According to the passage, what must the cumulative district‑wise projected persondays in Part II correspond to?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q033",
+        "question": "Which additional authority, besides the Chartered Accountant, audits the works under this mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q034",
+        "question": "According to the passage, who can provide water supply services at the village level?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q035",
+        "question": "What minimum percentage of beneficiaries must be women according to the scheme?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q036",
+        "question": "Which authority is tasked with taking speedy action against officials for misappropriation of funds and other serious irregularities?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q037",
+        "question": "On what date was the National Rural Employment Guarantee Act (NREGA) notified?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q038",
+        "question": "What is the minimum service level (in liters per capita per day) that the retrofitting aims to achieve?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q039",
+        "question": "Who is required to chair the Social Audit Forum meetings according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q040",
+        "question": "Which annexure in the document outlines the function activity levels of implementation centres such as State, District, Block, and Gram Panchayat?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q041",
+        "question": "What must a user do to acknowledge and agree to the disclaimer according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q042",
+        "question": "Which body prepares the annual reports on the implementation of this Act that are laid before Parliament?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "q044",
+        "question": "Which government departments are responsible for providing overall guidance for the implementation of Nal Jal Mitra?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q045",
+        "question": "Which authority is required to maintain the Muster Roll Issue Register according to the Rural Employment Guarantee Act?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q046",
+        "question": "According to the passage, what details must be included in the 'Management arrangements' section of a project document?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q048",
+        "question": "What three items are included in the sample checking of engineering works for civil, mechanical, and electrical components?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q049",
+        "question": "According to the passage, can flexi-funds be used to replace a state's own schemes or for building government officials' offices?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q050",
+        "question": "Where must information about public works be displayed according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q051",
+        "question": "What quorum requirement is specified for the Social Audit Forum?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q052",
+        "question": "How many bank accounts were opened and what total wage amount (in lakhs of rupees) was disbursed through bank accounts for each district according to the report?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q053",
+        "question": "Which ministry is responsible for ensuring that comments from Central ministries and NITI Aayog are received within the stipulated time?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q054",
+        "question": "What details must be included for each suggested work in Annexure A according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q055",
+        "question": "Which organizations are designated as Implementation Support Agencies (ISAs) to help plan, design, implement, manage, operate, and maintain village water supply infrastructure?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q056",
+        "question": "How frequently will sub‑division or block laboratories test water sources for chemical parameters according to the policy?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q057",
+        "question": "According to the passage, what determines the timing of payments to the ISA?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q060",
+        "question": "How is a contribution made by an MP towards a rural water supply system treated in the funding calculations under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q062",
+        "question": "Which department will execute the water scheme if the Gram Panchayat or its sub‑committee is unable to do so?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q063",
+        "question": "How many days do the central ministries and NITI Aayog have to upload their recommendations or comments on a proposal after receiving it on the portal?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q064",
+        "question": "Who is responsible for completing an incomplete registration form?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q067",
+        "question": "What specific activities are mentioned for community mobilization and water management in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q069",
+        "question": "What does Column 8d represent in the budgeting table?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q070",
+        "question": "Which types of organizations are empaneled as Implementation Support Agencies (ISAs) according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q071",
+        "question": "Until what date are farmers in Assam, Meghalaya, and the UTs of Jammu & Kashmir and Ladakh exempted from providing an Aadhaar number for PM-KISAN enrollment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 4
+      },
+      {
+        "id": "q072",
+        "question": "According to the passage, which entity is responsible for the management, operation, and maintenance of the water infrastructure after construction?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q073",
+        "question": "What reports and certificates are required for state level fund release according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": null
+      },
+      {
+        "id": "q075",
+        "question": "What categories of accounts are mentioned for wage disbursement in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q076",
+        "question": "What system does the policy recommend to minimize water loss during long-distance water transmission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q078",
+        "question": "What information does Annexure B-17 record regarding foodgrains under NREGA for a given year?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q079",
+        "question": "Within how many days must the Gram Panchayat provide wage employment after receiving an application?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q080",
+        "question": "What daily water quantity per capita is required for a household tap connection to be considered functional according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q081",
+        "question": "Within how many days must a State transfer the released funds to the single nodal account of SWSM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q082",
+        "question": "According to the passage, who must certify that the Utilization Certificates and Audit Reports of the districts are in order and that no deviation from prescribed financial norms has been observed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q083",
+        "question": "At which administrative level is the maintenance of computer infrastructure and data entry for the database performed?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q084",
+        "question": "Who is the chairperson of the Technical Committee mentioned in the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q085",
+        "question": "What institutional reform does the passage propose to improve water supply and attract private investment?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q086",
+        "question": "According to the passage, what minimum service level (in liters per capita per day) must existing water supply schemes meet to be retrofitted for FHTCs?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q087",
+        "question": "What contract mode and operation period does the passage specify as preferred for regional water supply or bulk water transfer schemes under JJM?",
+        "answerable": true,
+        "language": "en",
+        "rank": 1
+      },
+      {
+        "id": "q088",
+        "question": "What three types of land data are listed for the implementation of the Jal Jeevan Mission?",
+        "answerable": true,
+        "language": "en",
+        "rank": 3
+      },
+      {
+        "id": "q090",
+        "question": "Which accreditation standard must drinking water quality testing laboratories obtain according to the passage?",
+        "answerable": true,
+        "language": "en",
+        "rank": 2
+      },
+      {
+        "id": "u01",
+        "question": "What is the eligibility for the PM Scholarship Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u02",
+        "question": "How much health insurance cover per family does Ayushman Bharat PM-JAY provide?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u03",
+        "question": "What is the premium rate under the Pradhan Mantri Fasal Bima Yojana for rabi crops?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u04",
+        "question": "What is the maximum loan amount under PM Mudra Yojana for the Tarun category?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u05",
+        "question": "What is the income limit to apply for PM Awas Yojana Urban?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u06",
+        "question": "What is the minimum age to join the Atal Pension Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u07",
+        "question": "What is the interest subvention rate on Kisan Credit Card loans?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u08",
+        "question": "What benefits does the Sukanya Samriddhi Yojana offer to a girl child?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u09",
+        "question": "What is the eligibility for the PM Vishwakarma scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u10",
+        "question": "How much subsidy is given for rooftop solar under PM Surya Ghar Muft Bijli Yojana?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u11",
+        "question": "What is the monthly pension under the PM Shram Yogi Maandhan scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u12",
+        "question": "What is the stipend under the National Apprenticeship Promotion Scheme?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u13",
+        "question": "What cash benefit does the Janani Suraksha Yojana give for institutional delivery?",
+        "answerable": false,
+        "language": "en"
+      },
+      {
+        "id": "u14",
+        "question": "What is the loan range under the Stand-Up India scheme?",
+        "answerable": false,
+        "language": "en"
+      }
+    ]
+  }
+]
